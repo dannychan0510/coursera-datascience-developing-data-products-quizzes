@@ -1,11 +1,13 @@
 # Question 1
 Consider the following code for the cars data set
 
-`library(manipulate)
+```
+library(manipulate)
 myPlot <- function(s) {
     plot(cars$dist - mean(cars$dist), cars$speed - mean(cars$speed))
     abline(0, s)
-}`
+}
+```
 
 And weights given by
 

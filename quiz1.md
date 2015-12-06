@@ -36,4 +36,33 @@ library("rCharts")
 dTable(airquality, sPaginationType = "full_numbers")
 ```
 
+# Question 3
+A basic shiny data product requires:
+
+## Solution to Question 3
+```
+A ui.R and server.R file or a A server.R file and a directory called www containing the relevant html files.
+```
+
+# Question 4
+What is incorrect about the followig syntax in `ui.R`?
+
+```
+library(shiny)
+shinyUI(pageWithSidebar(
+  headerPanel("Data science FTW!"),
+  sidebarPanel(
+    h2('Big text')
+    h3('Sidebar')
+  ),
+  mainPanel(
+      h3('Main Panel text')
+  )
+))
+```
+
+## Solution to Question 4
+```
+Missing a comma in the sidebar panel
+```
 
